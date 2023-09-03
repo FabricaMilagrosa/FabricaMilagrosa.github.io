@@ -1,0 +1,147 @@
+aguscrozzo@gmail.com<!DOCTYPE html>
+<html>
+<head>
+  <title>Pastas La Milagrosa</title>
+  <style>
+    /* CSS styles */
+    body{
+      background-image: url(https://img.freepik.com/fotos-premium/fondo-blanco-fondo-pantalla-textura-papel-espacio-libre-texto_33771-633.jpg?w=1060); black;
+    }  
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    header {
+      background-image: url('https://canalc.com.ar/wp-content/uploads/2020/02/como-hacer-pastas-caseras-2-1536x864.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 48px;
+    }
+    
+    .recipe {
+      margin: 50px auto;
+      width: 600px;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+    }
+    
+    form {
+      margin: 50px auto;
+      width: 400px;
+    }
+    
+    form label {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    form input[type="text"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    
+    form button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    form button:hover {
+      background-color: #555;
+    }
+  </style>
+  <script>
+    // JavaScript
+    function redirectToCatalog() {
+      window.location.href = "https://www.lajuvenilpastas.com.ar/catalogo_de_productos.pdf"; // Replace with the actual URL of your catalog page
+    }
+  </script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="https://aguscrozzo.github.io/index.html">Home</a></li>
+
+      <li><a href=" https://w.app/uU6p9R">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Header Section -->
+  <header>
+    <h1 style="color: black; border-style:solid;">Bienvenido a mi fabrica de pastas</h1>
+  </header>
+  
+  <!-- Recipe Section -->
+  <section id="recipes" class="recipe">
+    <h2>La Mejor Pasta</h2>
+    <p>Adjunta tus datos y envianos un mensaje</p>
+    <ol style="color: black;">
+      <li>Puedes ver la pagina oficial tocando en "Home"</li>
+      <li>Abajo a la izquierda esta el catalogo</li>
+      
+      <li>Ayudanos a crecer, esta es una Oportunidad unica</li>
+      <li>Sí quiere comprar por mayor envianos un mensaje a los contactos de "HOME" y le comentaremos sobre los descuentos.</li>
+      <li>El numero Para Contactarnos Es: <strong>+54 9 11 5695-9829<strong></li>
+    <li>Nuestro Gmail Es: fabricamilagrosa@gmail.com (envianos un mensaje por cualquier consulta)<strong></li>
+  </section>
+  
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contactanos</h2>
+    <form>
+      <label for="Nombre" style="color: black;">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="email" style="color: black;">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="message" style="color: black;">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit" style="background-color: red;">Enviar</button>
+      <li><a href=" https://w.app/uU6p9R">Hablenos!</a></li>
+    </form>
+  </section>
+  
+  <!-- Catalog Block -->
+  <div>
+    <p>Ya viste el catalogo?</p>
+    <button onclick="redirectToCatalog()" style="background-color: red; color: white;">CATALOGO</button>
+  </div>
+</body>
+</html>
